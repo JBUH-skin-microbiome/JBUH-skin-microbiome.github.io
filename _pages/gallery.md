@@ -13,8 +13,8 @@ toc:
 {% assign gallery_projects = site.projects | where: "kind", "gallery" | sort: "order" %}
 <div class="collection-landing projects">
   {% for year in gallery_years %}
-    <section class="collection-year" id="year-{{ year }}">
-      <h2>{{ year }}</h2>
+    <section class="collection-year">
+      <h2 id="year-{{ year }}">{{ year }}</h2>
       <div class="grid">
         {% for project in gallery_projects %}
           {% assign project_year = project.year | append: "" %}

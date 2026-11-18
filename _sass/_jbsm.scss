@@ -68,6 +68,11 @@
 .eyebrow { margin-bottom: 0.5rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--global-theme-color); }
 
 .partners-section { margin-top: 3.5rem; padding-top: 2rem; border-top: 1px solid var(--global-divider-color); }
+.home-news-section { margin-top: 3.5rem; padding: 3rem 0; border-bottom: 1px solid var(--global-divider-color); }
+.home-news-section h2 { margin-top: 0; }
+.home-news-section h2 a { color: inherit; }
+.home-news-section .news { margin-bottom: 0; }
+.partners-section { padding-top: 3rem; border-top: 0; }
 .partner-logos { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.7rem; align-items: center; }
 .partner-logos figure { height: 82px; margin: 0; padding: 0.75rem; display: flex; align-items: center; justify-content: center; border: 0; background: transparent; }
 .partner-logos img { width: 100%; height: 52px; object-fit: contain; }
@@ -84,8 +89,12 @@
 .research-figure-wide { max-width: 760px; margin-top: 1.75rem; }
 .research-project { margin: 1.75rem 0; padding: 0; border: 0; background: transparent; }
 .research-project h3 { margin: 0 0 0.8rem; font-size: 1.08rem; }
-.research-project p:last-child { margin-bottom: 0; }
-.research-page #funding + ul > li { margin-bottom: 1rem; }
+.research-project ul,
+.research-funding-list { margin: 0; padding-left: 1.35rem; }
+.research-project li,
+.research-funding-list li { margin-bottom: 0.75rem; }
+.research-project li:last-child,
+.research-funding-list li:last-child { margin-bottom: 0; }
 
 .year-jump { display: flex; flex-wrap: wrap; gap: 0.65rem; margin: 1rem 0 2.5rem; padding: 1rem; border: 1px solid var(--global-divider-color); border-radius: 0.75rem; background: var(--global-card-bg-color); }
 .year-jump a { padding: 0.45rem 0.8rem; border-radius: 999px; background: var(--global-card-bg-color); border: 1px solid var(--global-divider-color); font-weight: 600; }
@@ -104,6 +113,7 @@
 .publication-catalog .author { margin-top: 0.35rem; }
 .publication-catalog .periodical { color: var(--global-text-color-light); }
 .publication-catalog .links { margin-top: 0.6rem; }
+.publication-catalog .publication-search-link { margin-right: 0.35rem; }
 .publication-catalog .bibtex-details { display: inline-block; position: relative; vertical-align: top; }
 .publication-catalog .bibtex-details summary { display: inline-block; cursor: pointer; list-style: none; }
 .publication-catalog .bibtex-details summary::-webkit-details-marker { display: none; }
@@ -203,6 +213,30 @@ h2#patents + ul > li {
 .internship-program-visuals .internship-linux-logo { width: 52%; max-width: 175px; }
 .internship-program-visuals .internship-result-image { width: 100%; max-width: 330px; }
 .internship-task-layout .internship-visual img { width: 100%; max-width: 330px; margin: 0 auto; }
+.internship-page .content-section { padding-bottom: 4rem; }
+.internship-feature-grid { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(240px, 0.8fr); gap: 2.5rem; align-items: center; }
+.internship-feature-grid figure { margin: 0; }
+.internship-feature-grid img,
+.internship-research-images img,
+.internship-tools-row img { display: block; width: 100%; height: auto; border: 0; background: transparent; object-fit: contain; }
+.internship-topic-grid,
+.internship-analysis-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; }
+.internship-topic { padding: 1.35rem; border: 1px solid var(--global-divider-color); background: var(--global-card-bg-color); }
+.internship-topic h3 { margin: 0 0 0.9rem; font-size: 1.08rem; line-height: 1.45; }
+.internship-topic ul { margin: 0; padding-left: 1.25rem; }
+.internship-topic li + li { margin-top: 0.65rem; }
+.internship-topic-wide { margin-top: 1.25rem; }
+.internship-research-images { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; align-items: center; margin-top: 2rem; }
+.internship-tools-row { display: grid; grid-template-columns: 0.45fr 0.55fr 1.7fr; gap: 2rem; align-items: center; max-width: 850px; margin: 2.5rem auto; }
+.internship-tools-row .internship-r-logo { max-height: 135px; }
+.internship-tools-row .internship-linux-logo { max-height: 155px; }
+.internship-tools-row .internship-result-image { max-height: 290px; }
+.internship-qna { display: grid; gap: 1rem; }
+.internship-qna details { padding: 1.2rem 1.35rem; border: 1px solid var(--global-divider-color); background: var(--global-card-bg-color); }
+.internship-qna summary { cursor: pointer; font-weight: 700; }
+.internship-qna p { margin: 1rem 0 0; }
+.internship-credits { margin-top: 1rem; padding: 1.5rem 0 0; border-top: 1px solid var(--global-divider-color); color: var(--global-text-color-light); font-size: 0.9rem; }
+.internship-credits p { margin-bottom: 0.5rem; }
 
 .page-lead { max-width: 760px; font-size: 1.1rem; color: var(--global-text-color-light); }
 .resource-grid { grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); margin-bottom: 3rem; }
@@ -235,11 +269,16 @@ h2#patents + ul > li {
   .facility-images { grid-template-columns: 1fr; }
   .facility-images img { height: auto; max-height: 420px; object-fit: contain; background: #fff; }
   .internship-split,
-  .internship-research-visuals { grid-template-columns: 1fr; gap: 1.5rem; }
+  .internship-research-visuals,
+  .internship-feature-grid,
+  .internship-topic-grid,
+  .internship-analysis-grid { grid-template-columns: 1fr; gap: 1.5rem; }
   .internship-intro .internship-visual,
   .internship-project-layout .internship-program-visuals,
   .internship-task-layout .internship-visual { order: 2; }
   .internship-research-visuals .internship-visual-stack { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .internship-tools-row { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; }
+  .internship-tools-row .internship-result-image { grid-column: 1 / -1; }
 }
 
 @media (max-width: 576px) {

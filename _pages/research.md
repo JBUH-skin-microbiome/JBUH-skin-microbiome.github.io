@@ -30,29 +30,24 @@ toc:
 
 <section class="content-section">
 <h2 id="projects">3. 주요 연구 과제</h2>
-<article class="research-project"><h3>1) 얼굴·목을 침범한 성인 아토피피부염 환자의 전신제제 투여에 따른 피부 마이크로바이옴 양상 분석</h3><p><strong>주관:</strong> 대한피부진균및감염학회</p><p><strong>목적:</strong> 서로 다른 전신 면역 조절 치료(듀필루맙·JAK 억제제·사이클로스포린)에 따른 두경부 피부 마이크로바이옴의 세균·진균 구성 분석</p></article>
-<article class="research-project"><h3>2) 중증 아토피피부염 환자의 듀필루맙 치료 후 두경부 홍반과 피부 마이크로바이옴의 연관성</h3><p><strong>주관:</strong> 경북대학교병원, 조선대학교병원, 전북대학교병원</p><p><strong>목적:</strong> 듀필루맙 치료 후 발생한 두경부 홍반과 피부 마이크로바이옴의 연관성 분석</p></article>
-<article class="research-project"><h3>3) 아토피피부염 환자의 피부·구강·장내 미생물군 연속 분석</h3><p><strong>주관:</strong> 전북대학교병원</p><p><strong>목적:</strong> 생물학적 제제를 사용하는 환자의 피부·구강·장내 마이크로바이옴 종단 변화 분석</p></article>
-<article class="research-project"><h3>4) 옴 환자의 조기 진단 마커, 면역 조절 기능 및 마이크로바이옴 특성 연구</h3><p><strong>주관:</strong> 전북대학교병원</p><p><strong>목적:</strong> 임상 검체를 이용한 옴진드기 조기 진단 마커 발굴과 면역 조절 기능 및 마이크로바이옴 영향 규명</p></article>
-<article class="research-project"><h3>5) 면역억제제 치료 후 발생한 여드름 환자의 피부 지질체 분석</h3><p><strong>주관:</strong> 전북대학교병원, 가톨릭대학교</p><p><strong>목적:</strong> 피부 지질체의 변화를 분석하고 여드름 발생과 관련된 지질 특성 규명</p></article>
-<article class="research-project"><h3>6) 주사피부염 환자의 치료에 따른 피부·구강 마이크로바이옴 연속 분석</h3><p><strong>주관:</strong> 전북대학교병원</p><p><strong>목적:</strong> 주사피부염 아형과 치료에 따른 피부·구강 마이크로바이옴의 종단 변화 분석</p></article>
+<article class="research-project"><h3>1) 얼굴·목을 침범한 성인 아토피피부염 환자의 전신제제 투여에 따른 피부 마이크로바이옴 양상 분석</h3><ul><li><strong>주관:</strong> 대한피부진균및감염학회</li><li><strong>목적:</strong> 서로 다른 전신 면역 조절 치료(듀필루맙·JAK 억제제·사이클로스포린)에 따른 두경부 피부 마이크로바이옴의 세균·진균 구성 분석</li></ul></article>
+<article class="research-project"><h3>2) 중증 아토피피부염 환자의 듀필루맙 치료 후 두경부 홍반과 피부 마이크로바이옴의 연관성</h3><ul><li><strong>주관:</strong> 경북대학교병원, 조선대학교병원, 전북대학교병원</li><li><strong>목적:</strong> 듀필루맙 치료 후 발생한 두경부 홍반과 피부 마이크로바이옴의 연관성 분석</li></ul></article>
+<article class="research-project"><h3>3) 아토피피부염 환자의 피부·구강·장내 미생물군 연속 분석</h3><ul><li><strong>주관:</strong> 전북대학교병원</li><li><strong>목적:</strong> 생물학적 제제를 사용하는 환자의 피부·구강·장내 마이크로바이옴 종단 변화 분석</li></ul></article>
+<article class="research-project"><h3>4) 옴 환자의 조기 진단 마커, 면역 조절 기능 및 마이크로바이옴 특성 연구</h3><ul><li><strong>주관:</strong> 전북대학교병원</li><li><strong>목적:</strong> 임상 검체를 이용한 옴진드기 조기 진단 마커 발굴과 면역 조절 기능 및 마이크로바이옴 영향 규명</li></ul></article>
+<article class="research-project"><h3>5) 면역억제제 치료 후 발생한 여드름 환자의 피부 지질체 분석</h3><ul><li><strong>주관:</strong> 전북대학교병원, 가톨릭대학교</li><li><strong>목적:</strong> 피부 지질체의 변화를 분석하고 여드름 발생과 관련된 지질 특성 규명</li></ul></article>
+<article class="research-project"><h3>6) 주사피부염 환자의 치료에 따른 피부·구강 마이크로바이옴 연속 분석</h3><ul><li><strong>주관:</strong> 전북대학교병원</li><li><strong>목적:</strong> 주사피부염 아형과 치료에 따른 피부·구강 마이크로바이옴의 종단 변화 분석</li></ul></article>
 </section>
 
 <section class="content-section">
 <h2 id="funding">4. 연구비</h2>
-
-- 병원 기반 인간 마이크로바이옴 연구개발사업(보건복지부·질병관리청)
-
-- 피부장벽 손상에 의한 면역염증질환의 피부 마이크로바이옴 특성과 기능(한국보건산업진흥원)
-
-- 면역염증 피부질환의 마이크로바이옴 영향 규명 및 치료 기술 개발(과학기술정보통신부)
-
-- 두피 모낭 면역 항상성 유지와 염증성 탈모에 두피 및 모낭 마이크로바이옴이 미치는 영향(한국연구재단 중견연구사업)
-
-- 생물학적 제제를 투여 중인 아토피피부염 환자의 피부 마이코바이옴 분석: 국내 다기관 공동연구(대한피부진균및감염학회)
-
-- 남성 안드로겐탈모 환자를 대상으로 OOO의 유효성 및 안전성 평가(OO 제약) 등
-
-- 장내 마이코바이옴 조성과 질환 간 상관관계 분석(질병관리청)
+<ul class="research-funding-list">
+  <li>병원 기반 인간 마이크로바이옴 연구개발사업(보건복지부·질병관리청)</li>
+  <li>피부장벽 손상에 의한 면역염증질환의 피부 마이크로바이옴 특성과 기능(한국보건산업진흥원)</li>
+  <li>면역염증 피부질환의 마이크로바이옴 영향 규명 및 치료 기술 개발(과학기술정보통신부)</li>
+  <li>두피 모낭 면역 항상성 유지와 염증성 탈모에 두피 및 모낭 마이크로바이옴이 미치는 영향(한국연구재단 중견연구사업)</li>
+  <li>생물학적 제제를 투여 중인 아토피피부염 환자의 피부 마이코바이옴 분석: 국내 다기관 공동연구(대한피부진균및감염학회)</li>
+  <li>남성 안드로겐탈모 환자를 대상으로 OOO의 유효성 및 안전성 평가(OO 제약) 등</li>
+  <li>장내 마이코바이옴 조성과 질환 간 상관관계 분석(질병관리청)</li>
+</ul>
 </section>
 </div>

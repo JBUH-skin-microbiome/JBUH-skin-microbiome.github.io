@@ -2,8 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: Skin Microbiome Lab · Department of Dermatology
-news: true
+news: false
 selected_papers: false
 social: false
 ---
@@ -19,6 +18,11 @@ social: false
   <section class="lab-card"><h3>함께 연구할 분을 찾습니다</h3><p>학부연구생·대학원생·연구원을 모집하고 있습니다.</p><a href="mailto:airmd@jbnu.ac.kr">airmd@jbnu.ac.kr</a></section>
   <section class="lab-card"><h3>연구실 안내</h3><p>전북대학교병원 임상연구센터 1층 101호</p><a href="{{ '/contact/' | relative_url }}">연락처 보기 →</a></section>
 </div>
+
+<section class="home-news-section">
+  <h2><a href="{{ '/news/' | relative_url }}">News</a></h2>
+  {% include news.liquid limit=true %}
+</section>
 
 <section class="partners-section">
   <h2>Partners &amp; Programs</h2>

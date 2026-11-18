@@ -5,16 +5,23 @@ permalink: /contact/
 description: 피부마이크로바이옴연구실 위치와 문의 방법입니다.
 nav: true
 nav_order: 8
+toc:
+  sidebar: right
 ---
 
+<section class="contact-section contact-recruitment" markdown="1">
+## 모집 안내
+
+학부연구생·대학원생·연구원을 모집하고 있습니다. 지원 및 연구 문의는 [airmd@jbnu.ac.kr](mailto:airmd@jbnu.ac.kr)로 연락해 주세요.
+</section>
+
+<section class="contact-section contact-information" markdown="1">
+## 피부마이크로바이옴연구실 정보
+
 <div class="contact-box">
-  <h2>피부마이크로바이옴연구실</h2>
   <p><strong>주소</strong><br>[54907] 전라북도 전주시 덕진구 건지로 20<br>전북대학교병원 임상연구센터 1층 101호</p>
   <p><strong>Address</strong><br>Clinical Research Center, Room 101, Jeonbuk National University Hospital<br>20 Geonji-ro, Deokjin-gu, Jeonju-si, Jeollabuk-do 54907, Republic of Korea</p>
   <p><strong>이메일</strong><br><a href="mailto:airmd@jbnu.ac.kr">airmd@jbnu.ac.kr</a></p>
   <p><strong>전화</strong><br><a href="tel:0632593712">063-259-3712</a></p>
 </div>
-
-## 모집 안내
-
-학부연구생·대학원생·연구원을 모집하고 있습니다. 지원 및 연구 문의는 [airmd@jbnu.ac.kr](mailto:airmd@jbnu.ac.kr)로 연락해 주세요.
+</section>

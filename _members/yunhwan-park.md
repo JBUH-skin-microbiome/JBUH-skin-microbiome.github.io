@@ -8,5 +8,4 @@ group_label: Researcher
 order: 11
 image: /assets/img/jbsm/members_1-09.png
 email: dbsghks5226@gmail.com
-publication_names: ["Park, YH"]
 ---

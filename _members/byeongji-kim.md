@@ -8,5 +8,4 @@ group_label: Researcher
 order: 10
 image: /assets/img/jbsm/members_1-08.jpg
 email: qudwl07@naver.com
-publication_names: ["Kim, BJ"]
 ---

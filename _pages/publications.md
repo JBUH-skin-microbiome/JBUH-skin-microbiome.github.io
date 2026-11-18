@@ -86,12 +86,14 @@ toc:
 
 ## Tools
 
-- [**ITSdetector**](https://github.com/KitHubb/ITSdetector) — Illumina ITS 워크플로와 진균 분류기의 성능을 비교하는 Nextflow 기반 프레임워크
-- [**decontamSensitivity**](https://github.com/KitHubb/decontamSensitivity) — 마이크로바이옴 연구에서 decontam 임계값 선정을 지원하는 민감도 분석 및 품질관리 도구
-- [**ancombcVizhelper**](https://github.com/KitHubb/ancombcVizhelper) — ANCOM-BC2 차등 풍부도 분석 결과를 정리·요약하고 시각화하는 R 패키지
+- <img src="https://raw.githubusercontent.com/nextflow-io/trademark/master/nextflow-icon.svg" alt="Nextflow" title="Nextflow pipeline" width="24" height="20" style="object-fit: contain; vertical-align: middle; margin-right: 0.35rem;"> [**ITSdetector**](https://github.com/KitHubb/ITSdetector) — Illumina ITS 워크플로와 진균 분류기의 성능을 비교하는 Nextflow 기반 프레임워크
+- <img src="https://www.r-project.org/logo/Rlogo.svg" alt="R" title="R package" width="24" height="20" style="object-fit: contain; vertical-align: middle; margin-right: 0.35rem;"> [**decontamSensitivity**](https://github.com/KitHubb/decontamSensitivity) — 마이크로바이옴 연구에서 decontam 임계값 선정을 지원하는 민감도 분석 및 품질관리 도구
+- <img src="https://www.r-project.org/logo/Rlogo.svg" alt="R" title="R package" width="24" height="20" style="object-fit: contain; vertical-align: middle; margin-right: 0.35rem;"> [**ancombcVizhelper**](https://github.com/KitHubb/ancombcVizhelper) — ANCOM-BC2 차등 풍부도 분석 결과를 정리·요약하고 시각화하는 R 패키지
 
 ## Pipelines
 
-- [**ITSdetector**](https://github.com/KitHubb/ITSdetector) — QIIME 2, UNITE, BLAST 및 AI 보조 분류를 활용하는 ITS 분석·벤치마크 파이프라인
-- [**amplicon_16S_rRNA_full-length_pacbio_qiime_nf**](https://github.com/KitHubb/amplicon_16S_rRNA_full-length_pacbio_qiime_nf) — PacBio full-length 16S CCS read를 QIIME 2로 분석하는 Nextflow DSL2 파이프라인
-- [**amplicon_16S_qiime_nf**](https://github.com/KitHubb/amplicon_16S_qiime_nf) — paired-end 16S rRNA 데이터를 QIIME 2, DADA2 및 SILVA로 분석하는 Nextflow DSL2 파이프라인
+- <img src="https://raw.githubusercontent.com/nextflow-io/trademark/master/nextflow-icon.svg" alt="Nextflow" title="Nextflow pipeline" width="24" height="20" style="object-fit: contain; vertical-align: middle; margin-right: 0.35rem;"> [**ITSdetector**](https://github.com/KitHubb/ITSdetector) — QIIME 2, UNITE, BLAST 및 AI 보조 분류를 활용하는 ITS 분석·벤치마크 파이프라인
+- <img src="https://raw.githubusercontent.com/nextflow-io/trademark/master/nextflow-icon.svg" alt="Nextflow" title="Nextflow pipeline" width="24" height="20" style="object-fit: contain; vertical-align: middle; margin-right: 0.35rem;"> [**amplicon_16S_rRNA_full-length_pacbio_qiime_nf**](https://github.com/KitHubb/amplicon_16S_rRNA_full-length_pacbio_qiime_nf) — PacBio full-length 16S CCS read를 QIIME 2로 분석하는 Nextflow DSL2 파이프라인
+- <img src="https://raw.githubusercontent.com/nextflow-io/trademark/master/nextflow-icon.svg" alt="Nextflow" title="Nextflow pipeline" width="24" height="20" style="object-fit: contain; vertical-align: middle; margin-right: 0.35rem;"> [**amplicon_16S_qiime_nf**](https://github.com/KitHubb/amplicon_16S_qiime_nf) — paired-end 16S rRNA 데이터를 QIIME 2, DADA2 및 SILVA로 분석하는 Nextflow DSL2 파이프라인
+
+<p class="section-note">Icons: <a href="https://www.r-project.org/logo/">R Foundation</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, unchanged) · <a href="https://github.com/nextflow-io/trademark">Nextflow / Seqera</a>.</p>

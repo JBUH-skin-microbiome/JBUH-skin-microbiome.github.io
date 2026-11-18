@@ -253,6 +253,12 @@ defaults:
       layout: member
       nav: false
   - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+      nav: false
+  - scope:
       path: "assets"
     values:
       sitemap: false

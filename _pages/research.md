@@ -11,7 +11,7 @@ toc:
 
 <div class="research-page" markdown="1">
 <section class="content-section">
-<h2 id="skin-microbiome">피부 마이크로바이옴이란?</h2>
+<h2 id="skin-microbiome">1. 피부 마이크로바이옴이란?</h2>
 
 미생물군(microbiota)은 인체의 특정 부위에 서식하는 세균, 고세균, 바이러스, 진균, 원생동물 등 다양한 미생물을 뜻합니다. 마이크로바이옴(microbiome)은 이 미생물과 유전체, 주변 환경 조건을 포함하는 전체 생태계를 의미합니다.
 
@@ -21,7 +21,7 @@ toc:
 </section>
 
 <section class="content-section">
-<h2 id="bioinformatics">생물정보학이란?</h2>
+<h2 id="bioinformatics">2. 생물정보학이란?</h2>
 
 생물정보학은 생물학적 분자의 서열을 컴퓨터로 분석하는 분야입니다. 시퀀싱과 계산생물학의 발전으로 미생물 군집의 분류학적·기능적 구성을 더 정밀하게 탐색할 수 있게 되었습니다.
 
@@ -29,17 +29,17 @@ toc:
 </section>
 
 <section class="content-section">
-<h2 id="projects">주요 연구 과제</h2>
-<article class="research-project"><h3>얼굴·목을 침범한 성인 아토피피부염 환자의 전신제제 투여에 따른 피부 마이크로바이옴 양상 분석</h3><p><strong>주관:</strong> 대한피부진균및감염학회</p><p><strong>목적:</strong> 서로 다른 전신 면역 조절 치료(듀필루맙·JAK 억제제·사이클로스포린)에 따른 두경부 피부 마이크로바이옴의 세균·진균 구성 분석</p></article>
-<article class="research-project"><h3>중증 아토피피부염 환자의 듀필루맙 치료 후 두경부 홍반과 피부 마이크로바이옴의 연관성</h3><p><strong>주관:</strong> 경북대학교병원, 조선대학교병원, 전북대학교병원</p><p><strong>목적:</strong> 듀필루맙 치료 후 발생한 두경부 홍반과 피부 마이크로바이옴의 연관성 분석</p></article>
-<article class="research-project"><h3>아토피피부염 환자의 피부·구강·장내 미생물군 연속 분석</h3><p><strong>주관:</strong> 전북대학교병원</p><p><strong>목적:</strong> 생물학적 제제를 사용하는 환자의 피부·구강·장내 마이크로바이옴 종단 변화 분석</p></article>
-<article class="research-project"><h3>옴 환자의 조기 진단 마커, 면역 조절 기능 및 마이크로바이옴 특성 연구</h3><p><strong>주관:</strong> 전북대학교병원</p><p><strong>목적:</strong> 임상 검체를 이용한 옴진드기 조기 진단 마커 발굴과 면역 조절 기능 및 마이크로바이옴 영향 규명</p></article>
-<article class="research-project"><h3>면역억제제 치료 후 발생한 여드름 환자의 피부 지질체 분석</h3><p><strong>주관:</strong> 전북대학교병원, 가톨릭대학교</p><p><strong>목적:</strong> 피부 지질체의 변화를 분석하고 여드름 발생과 관련된 지질 특성 규명</p></article>
-<article class="research-project"><h3>주사피부염 환자의 치료에 따른 피부·구강 마이크로바이옴 연속 분석</h3><p><strong>주관:</strong> 전북대학교병원</p><p><strong>목적:</strong> 주사피부염 아형과 치료에 따른 피부·구강 마이크로바이옴의 종단 변화 분석</p></article>
+<h2 id="projects">3. 주요 연구 과제</h2>
+<article class="research-project"><h3>1) 얼굴·목을 침범한 성인 아토피피부염 환자의 전신제제 투여에 따른 피부 마이크로바이옴 양상 분석</h3><p><strong>주관:</strong> 대한피부진균및감염학회</p><p><strong>목적:</strong> 서로 다른 전신 면역 조절 치료(듀필루맙·JAK 억제제·사이클로스포린)에 따른 두경부 피부 마이크로바이옴의 세균·진균 구성 분석</p></article>
+<article class="research-project"><h3>2) 중증 아토피피부염 환자의 듀필루맙 치료 후 두경부 홍반과 피부 마이크로바이옴의 연관성</h3><p><strong>주관:</strong> 경북대학교병원, 조선대학교병원, 전북대학교병원</p><p><strong>목적:</strong> 듀필루맙 치료 후 발생한 두경부 홍반과 피부 마이크로바이옴의 연관성 분석</p></article>
+<article class="research-project"><h3>3) 아토피피부염 환자의 피부·구강·장내 미생물군 연속 분석</h3><p><strong>주관:</strong> 전북대학교병원</p><p><strong>목적:</strong> 생물학적 제제를 사용하는 환자의 피부·구강·장내 마이크로바이옴 종단 변화 분석</p></article>
+<article class="research-project"><h3>4) 옴 환자의 조기 진단 마커, 면역 조절 기능 및 마이크로바이옴 특성 연구</h3><p><strong>주관:</strong> 전북대학교병원</p><p><strong>목적:</strong> 임상 검체를 이용한 옴진드기 조기 진단 마커 발굴과 면역 조절 기능 및 마이크로바이옴 영향 규명</p></article>
+<article class="research-project"><h3>5) 면역억제제 치료 후 발생한 여드름 환자의 피부 지질체 분석</h3><p><strong>주관:</strong> 전북대학교병원, 가톨릭대학교</p><p><strong>목적:</strong> 피부 지질체의 변화를 분석하고 여드름 발생과 관련된 지질 특성 규명</p></article>
+<article class="research-project"><h3>6) 주사피부염 환자의 치료에 따른 피부·구강 마이크로바이옴 연속 분석</h3><p><strong>주관:</strong> 전북대학교병원</p><p><strong>목적:</strong> 주사피부염 아형과 치료에 따른 피부·구강 마이크로바이옴의 종단 변화 분석</p></article>
 </section>
 
 <section class="content-section">
-<h2 id="funding">연구비</h2>
+<h2 id="funding">4. 연구비</h2>
 
 - 병원 기반 인간 마이크로바이옴 연구개발사업(보건복지부·질병관리청)
 - 피부장벽 손상에 의한 면역염증질환의 피부 마이크로바이옴 특성과 기능(한국보건산업진흥원)

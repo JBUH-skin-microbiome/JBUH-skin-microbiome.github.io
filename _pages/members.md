@@ -11,9 +11,9 @@ nav_order: 1
 {% assign sorted_members = site.members | sort: "order" %}
 {% for group_item in groups %}
   {% assign group_data = group_item | split: "|" %}
-  <section class="member-section">
+  <section class="member-section member-section-{{ group_data[0] }}">
     <h2>{{ group_data[1] }}</h2>
-    <div class="member-grid">
+    <div class="member-grid member-grid-{{ group_data[0] }}">
       {% for member in sorted_members %}
         {% if member.group == group_data[0] %}
           <article class="member-card">

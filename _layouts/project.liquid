@@ -1,0 +1,24 @@
+---
+layout: page
+---
+
+<article class="collection-detail">
+  <a class="back-link" href="{{ page.kind | prepend: '/' | append: '/' | relative_url }}">← {{ page.kind | capitalize }}</a>
+  {% if page.kind == "gallery" %}<p class="collection-meta">{{ page.date_label }}</p>{% endif %}
+  {% if page.description %}<p class="page-lead">{{ page.description }}</p>{% endif %}
+
+  <div class="collection-image-grid collection-image-grid-{{ page.kind }}">
+    {% for image in page.images %}
+      <figure><img src="{{ image | relative_url }}" alt="{{ page.title }} 사진 {{ forloop.index }}" loading="lazy"></figure>
+    {% endfor %}
+  </div>
+
+  {% if page.details %}
+    <section class="collection-details">
+      <h2>Equipment</h2>
+      <ul>{% for item in page.details %}<li>{{ item }}</li>{% endfor %}</ul>
+    </section>
+  {% endif %}
+
+  {{ content }}
+</article>

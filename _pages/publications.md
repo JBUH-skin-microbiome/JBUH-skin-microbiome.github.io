@@ -9,13 +9,6 @@ toc:
   sidebar: right
 ---
 
-<nav class="publication-jump" aria-label="논문 페이지 목차">
-  <a href="#articles">Articles</a>
-  <a href="#conference">Conference</a>
-  <a href="#awards">Awards</a>
-  <a href="#patents">Patents</a>
-</nav>
-
 ## Articles
 
 <h3 id="articles-2026" class="publication-year">2026 and In press</h3>

@@ -3,7 +3,7 @@ layout: page
 title: Gallery
 permalink: /gallery/
 description: 연구실의 학술 활동과 구성원들의 기록입니다.
-nav: true
+nav: false
 nav_order: 4
 toc:
   sidebar: right

@@ -3,7 +3,7 @@ layout: page
 title: Facility
 permalink: /facility/
 description: 연구실과 공동 연구 공간 및 장비를 소개합니다.
-nav: true
+nav: false
 nav_order: 5
 ---
 

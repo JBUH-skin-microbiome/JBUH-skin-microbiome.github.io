@@ -97,6 +97,20 @@
 .publication-catalog .author { margin-top: 0.35rem; }
 .publication-catalog .periodical { color: var(--global-text-color-light); }
 .publication-catalog .links { margin-top: 0.6rem; }
+.publication-catalog .bibtex-details { display: inline-block; position: relative; vertical-align: top; }
+.publication-catalog .bibtex-details summary { display: inline-block; cursor: pointer; list-style: none; }
+.publication-catalog .bibtex-details summary::-webkit-details-marker { display: none; }
+.publication-catalog .bibtex-details pre {
+  position: relative;
+  z-index: 2;
+  width: min(680px, 72vw);
+  margin-top: 0.65rem;
+  padding: 1rem;
+  overflow-x: auto;
+  border: 1px solid var(--global-divider-color);
+  background: var(--global-code-bg-color);
+  white-space: pre-wrap;
+}
 .publication-year + ul,
 h2#awards + ul,
 h2#patents + ul {

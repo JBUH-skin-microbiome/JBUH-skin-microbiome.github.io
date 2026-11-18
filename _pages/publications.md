@@ -14,22 +14,22 @@ toc:
 <div class="publications publication-catalog">
 
 <h3 id="articles-2026" class="publication-year">2026 and In press</h3>
-{% bibliography --group_by none --query @*[year=2026]* %}
+{% include publications/articles-2026.html %}
 
 <h3 id="articles-2025" class="publication-year">2025</h3>
-{% bibliography --group_by none --query @*[year=2025]* %}
+{% include publications/articles-2025.html %}
 
 <h3 id="articles-2024" class="publication-year">2024</h3>
-{% bibliography --group_by none --query @*[year=2024]* %}
+{% include publications/articles-2024.html %}
 
 <h3 id="articles-2023" class="publication-year">2023</h3>
-{% bibliography --group_by none --query @*[year=2023]* %}
+{% include publications/articles-2023.html %}
 
 <h3 id="articles-2022" class="publication-year">2022</h3>
-{% bibliography --group_by none --query @*[year=2022]* %}
+{% include publications/articles-2022.html %}
 
 <h3 id="articles-2021" class="publication-year">2021</h3>
-{% bibliography --group_by none --query @*[year=2021]* %}
+{% include publications/articles-2021.html %}
 
 </div>
 

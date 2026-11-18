@@ -23,9 +23,9 @@ social: false
 </section>
 
 <div class="info-grid">
-  <section class="lab-card"><h3>연구 분야</h3><p>피부·두피·모낭·구강 및 장내 미생물군과 피부 질환의 연관성을 생물정보학과 임상 연구로 분석합니다.</p><a href="{{ '/research/' | relative_url }}">연구 내용 보기 →</a></section>
-  <section class="lab-card"><h3>함께 연구할 분을 찾습니다</h3><p>학부연구생·대학원생·연구원을 모집하고 있습니다.</p><a href="mailto:airmd@jbnu.ac.kr">airmd@jbnu.ac.kr</a></section>
-  <section class="lab-card"><h3>연구실 안내</h3><p>전북대학교병원 임상연구센터 1층 101호</p><a href="{{ '/contact/' | relative_url }}">연락처 보기 →</a></section>
+  <section class="lab-card"><span class="lab-card-icon" aria-hidden="true"><i class="fa-solid fa-dna"></i></span><h3>연구 분야</h3><p>피부·두피·모낭·구강 및 장내 미생물군과 피부 질환의 연관성을 생물정보학과 임상 연구로 분석합니다.</p><a href="{{ '/research/' | relative_url }}">연구 내용 보기 →</a></section>
+  <section class="lab-card"><span class="lab-card-icon" aria-hidden="true"><i class="fa-solid fa-user-group"></i></span><h3>함께 연구할 분을 찾습니다</h3><p>학부연구생·대학원생·연구원을 모집하고 있습니다.</p><a href="mailto:airmd@jbnu.ac.kr">airmd@jbnu.ac.kr</a></section>
+  <section class="lab-card"><span class="lab-card-icon" aria-hidden="true"><i class="fa-solid fa-location-dot"></i></span><h3>연구실 안내</h3><p>전북대학교병원 임상연구센터 1층 101호</p><a href="{{ '/contact/' | relative_url }}">연락처 보기 →</a></section>
 </div>
 
 <section class="home-news-section">

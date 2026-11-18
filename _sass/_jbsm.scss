@@ -62,6 +62,16 @@
 }
 
 .lab-card { padding: 1.25rem; }
+.lab-card-icon {
+  display: flex;
+  margin: 0 auto 1rem;
+  align-items: center;
+  justify-content: center;
+  color: var(--global-theme-color);
+  font-size: 1.65rem;
+  line-height: 1;
+}
+.lab-card-icon i { color: inherit; }
 .member-card .member-body { padding: 0.8rem; }
 .member-section { margin-top: 3rem; }
 .member-section + .member-section { padding-top: 1rem; border-top: 1px solid var(--global-divider-color); }

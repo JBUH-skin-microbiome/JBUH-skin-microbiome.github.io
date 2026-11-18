@@ -9,4 +9,5 @@ img: /assets/img/jbsm/gallery-asset-09.jpg
 images:
   - /assets/img/jbsm/gallery-asset-09.jpg
   - /assets/img/jbsm/gallery-asset-10.jpg
+  - /assets/img/jbsm/gallery-asset-11.jpg
 ---

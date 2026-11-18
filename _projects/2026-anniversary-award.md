@@ -5,9 +5,8 @@ kind: gallery
 year: 2026
 date_label: "2026.09.18"
 order: 6
-img: /assets/img/jbsm/gallery-asset-17.jpg
+img: /assets/img/jbsm/gallery-asset-18.jpg
 images:
-  - /assets/img/jbsm/gallery-asset-17.jpg
   - /assets/img/jbsm/gallery-asset-18.jpg
   - /assets/img/jbsm/gallery-asset-19.jpg
   - /assets/img/jbsm/gallery-asset-20.jpg

@@ -6,7 +6,7 @@ role: PhD Student
 group: researcher
 group_label: Researcher
 order: 12
-image: /assets/img/jbsm/member-placeholder.svg
+image: /assets/img/jbsm/soyeon-kim-github.jpg
 email: kim.soyeon.bio@gmail.com
 github: https://github.com/KitHubb
 blog: https://bio-kcs.tistory.com/

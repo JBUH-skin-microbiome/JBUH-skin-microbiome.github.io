@@ -1,6 +1,6 @@
 ---
 layout: about
-title: 홈
+title: Home
 permalink: /
 subtitle: Skin Microbiome Lab · Department of Dermatology
 news: false
@@ -20,4 +20,12 @@ social: false
   <section class="lab-card"><h3>연구실 안내</h3><p>전북대학교병원 임상연구센터 1층 101호</p><a href="{{ '/contact/' | relative_url }}">연락처 보기 →</a></section>
 </div>
 
-<div class="mt-4 text-center"><img src="{{ '/assets/img/jbsm/home-02.png' | relative_url }}" alt="보건복지부 인체 마이크로바이옴 연구개발사업" style="max-height:90px;width:auto;"></div>
+<section class="partners-section">
+  <h2>Partners &amp; Programs</h2>
+  <div class="partner-logos">
+    <figure><img src="{{ '/assets/img/jbsm/home-01.png' | relative_url }}" alt="JBNU Microbiome"></figure>
+    <figure><img src="{{ '/assets/img/jbsm/home-02.png' | relative_url }}" alt="Project for Human Microbiome"></figure>
+    <figure><img src="{{ '/assets/img/jbsm/home-03.jpg' | relative_url }}" alt="질병관리청"></figure>
+    <figure><img src="{{ '/assets/img/jbsm/home-04.jpg' | relative_url }}" alt="중소벤처기업부"></figure>
+  </div>
+</section>

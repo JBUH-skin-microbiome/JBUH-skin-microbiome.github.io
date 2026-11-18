@@ -1,10 +1,10 @@
 ---
 layout: page
-title: 연락처
+title: Contact
 permalink: /contact/
 description: 피부마이크로바이옴연구실 위치와 문의 방법입니다.
 nav: true
-nav_order: 7
+nav_order: 8
 ---
 
 <div class="contact-box">

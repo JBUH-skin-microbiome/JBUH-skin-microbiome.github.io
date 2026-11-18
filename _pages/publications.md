@@ -1,15 +1,24 @@
 ---
 layout: page
 permalink: /publications/
-title: 논문
+title: Publications
 description: 논문, 학술대회 발표, 수상 및 특허 목록입니다.
 nav: true
 nav_order: 3
+toc:
+  sidebar: right
 ---
+
+<nav class="publication-jump" aria-label="논문 페이지 목차">
+  <a href="#articles">Articles</a>
+  <a href="#conference">Conference</a>
+  <a href="#awards">Awards</a>
+  <a href="#patents">Patents</a>
+</nav>
 
 ## Articles
 
-### 2026 and In press {.publication-year}
+<h3 id="articles-2026" class="publication-year">2026 and In press</h3>
 
 <ol class="publication-list">
 <li>Na SI, Kim J, Kim SY, Park J, Cho YJ. SimpleMicrobiome: An integrated web-based platform for streamlined microbiome data analysis and visualization (2026). <a href="https://doi.org/10.71150/jm.2606011">doi:10.71150/jm.2606011</a></li>
@@ -20,7 +29,7 @@ nav_order: 3
 <li>T.Q.T. Tran, Kim GI, Ryu H-J, Park SK, Nam KH, Yun SK, Park J. Dermoscopic Features of Tinea Capitis in Korean Patients: Correlation With Clinical Subtypes, Age Groups and Causative Dermatophytes. <em>Mycoses.</em> 2026;(5):e70184. <a href="https://doi.org/10.1111/myc.70184">doi:10.1111/myc.70184</a></li>
 </ol>
 
-### 2025 {.publication-year}
+<h3 id="articles-2025" class="publication-year">2025</h3>
 
 <ol class="publication-list">
 <li>Lee S, Kim JE, Lew BL, Huh CH, Kim J, Kwon O, Kim MB, Lee YW, Lee Y, Park J, Kim S, Kim DY, Choi GS, Kang H. Efficacy and Safety of Low-Dose (0.2 mg) Dutasteride for Male Androgenic Alopecia: A Multicenter, Randomized, Double-Blind, Placebo-Controlled, Parallel-Group Phase III Clinical Trial. <em>Ann Dermatol.</em> 2025;37(4):183-190. doi:10.5021/ad.25.048.</li>
@@ -35,7 +44,7 @@ nav_order: 3
 <li>Lee JY, Kim HE, Lee ST, Park J, Nam KH, Park JY, Choi JK. The Repurposing of Nitazoxanide for Psoriasis Treatment Exerts Therapeutic Effects through Skin Metabolic Reprogramming. <em>J Invest Dermatol.</em> 2025. doi:10.1016/j.jid.2025.02.137.</li>
 </ol>
 
-### 2024 {.publication-year}
+<h3 id="articles-2024" class="publication-year">2024</h3>
 
 <ol class="publication-list">
 <li>Lee JY, Lim HJ, Kim SH, Lee GJ, Nam KH, Park J, Choi JK. Decreased CD19+CD24hiCD38hi Regulatory B Cells in Alopecia Areata. <em>J Invest Dermatol.</em> 2024. doi:10.1016/j.jid.2024.02.004.</li>
@@ -46,7 +55,7 @@ nav_order: 3
 <li>Yoon S, Lee SY, Lee GJ, Kim JS, Park J, Nam KH. Psoriasis and in situ or invasive non-melanoma skin cancer: a bidirectional Mendelian randomisation study. <em>Eur J Dermatol.</em> 2024;34(3):314-317. doi:10.1684/ejd.2024.4693.</li>
 </ol>
 
-### 2023 {.publication-year}
+<h3 id="articles-2023" class="publication-year">2023</h3>
 
 <ol class="publication-list">
 <li>Jung ES, Lee SK, Lee IJ, Nam KH, Yun SK, Kim HU, Park J. Three Cases of Recalcitrant Pediatric Tinea Capitis Successfully Treated with Griseofulvin. <em>Ann Dermatol.</em> 2023;35(Suppl 2):S247-S251. doi:10.5021/ad.21.254.</li>
@@ -59,7 +68,7 @@ nav_order: 3
 <li>Kim JS, Lee IJ, Lee MG, Yeom SW, Nam KH, Yun SK, Park J. Periodontitis and risk of alopecia areata: A nationwide population-based cohort study in Korea. <em>J Eur Acad Dermatol Venereol.</em> 2023;37(3):e397-e399. doi:10.1111/jdv.18758.</li>
 </ol>
 
-### 2022 {.publication-year}
+<h3 id="articles-2022" class="publication-year">2022</h3>
 
 <ol class="publication-list">
 <li>Yun SK, Lee SK, Park J, Nam KH. Deeper Dermal Dermatophytosis by Trichophyton rubrum Infection Mimicking Kaposi Sarcoma. <em>Mycopathologia.</em> 2022;187(5-6):611-612. doi:10.1007/s11046-022-00655-4.</li>
@@ -68,7 +77,7 @@ nav_order: 3
 <li>Park J, Schwardt NH, Jo JH, Zhang Z, Pillai V, Phang S, Brady SM, Portillo JA, MacGibeny MA, Liang H, Pensler M, Soldin SJ, Yanovski JA, Segre JA, Kong HH. Shifts in the Skin Bacterial and Fungal Communities of Healthy Children Transitioning through Puberty. <em>J Invest Dermatol.</em> 2022;142(1):212-219. doi:10.1016/j.jid.2021.04.034.</li>
 </ol>
 
-### 2021 {.publication-year}
+<h3 id="articles-2021" class="publication-year">2021</h3>
 
 <ol class="publication-list">
 <li>Harkins CP, MacGibeny MA, Thompson K, Bubic B, Huang X, Brown I, Park J, Jo JH, Segre JA, Kong HH, Rozati S. Cutaneous T-Cell Lymphoma Skin Microbiome Is Characterized by Shifts in Certain Commensal Bacteria but not Viruses when Compared with Healthy Controls. <em>J Invest Dermatol.</em> 2021;141(6):1604-1608. doi:10.1016/j.jid.2020.10.021.</li>
@@ -79,7 +88,7 @@ nav_order: 3
 
 ## Conference
 
-### 2026 {.publication-year}
+<h3 id="conference-2026" class="publication-year">2026</h3>
 
 - [P] Kim SY et al. Shotgun Metagenomic Profiling of Scalp Swabs and Plucked Hairs in Recurrent Scalp Folliculitis. 9th KSCMI, 2026.11.07.
 - [P] T.Q.T. Tran et al. Extensive Tinea Capitis Caused by _Trichophyton violaceum_ in a 5-Year-Old Nepalese Girl Living in Korea. 9th KSCMI, 2026.11.07.
@@ -92,7 +101,7 @@ nav_order: 3
 - [P] Kim SY et al.; Park YH et al.; Kim GI et al.; Park J et al.; T.Q.T. Tran et al. 33rd KSID Annual Meeting × 1st ISID APAC, 2026.04.09–11.
 - [IL] Kim SY. Practical Consideration in Fungal Mycobiome Analysis. 27th Fungal Genetics and Biology Conference, 2026.01.29–30.
 
-### 2025 {.publication-year}
+<h3 id="conference-2025" class="publication-year">2025</h3>
 
 - [O] Park YH. Bacterial microbiome profiling of skin-contact medical devices. 8th KSCMI, 2025.11.01.
 - [P] Park J et al. Depth-Dependent Microbial Landscapes of the Korean Scalp Hair Follicles. 8th KSCMI, 2025.11.01; 21st Korean Hair Research Society, 2025.05.25.
@@ -102,7 +111,7 @@ nav_order: 3
 - [O] Park J. Evaluation of Laser Fractionation and Inhibitory Efficacy of Multi-Wavelength Lasers. 26th Fungal Genetics and Biology Conference, 2025.02.17.
 - [P] Kim SY et al.; Kim GI et al.; Kim BJ et al.; Park YH et al. JBNU Research Fair, 2025.02.10.
 
-### 2024 {.publication-year}
+<h3 id="conference-2024" class="publication-year">2024</h3>
 
 - [O] Kim SY. Comparison of swab type and media for optimal skin microbiome study in clinical practice. 15th KSID Research Camp, 2024.12.14.
 - [P] Kim SY et al. Comparison of gut and skin mycobiota in newborns of mothers with and without gestational diabetes. 8th APSMM, 2024.11.07.

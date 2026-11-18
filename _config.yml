@@ -162,6 +162,9 @@ external_sources:
 # -----------------------------------------------------------------------------
 
 collections:
+  members:
+    output: true
+    permalink: /members/:path/
   news:
     defaults:
       layout: post
@@ -243,6 +246,12 @@ plugins:
 
 # Sitemap settings
 defaults:
+  - scope:
+      path: ""
+      type: members
+    values:
+      layout: member
+      nav: false
   - scope:
       path: "assets"
     values:

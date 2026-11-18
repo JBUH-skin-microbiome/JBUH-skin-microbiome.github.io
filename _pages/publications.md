@@ -87,8 +87,8 @@ toc:
 ## Tools
 
 - <img src="https://raw.githubusercontent.com/nextflow-io/trademark/master/nextflow-icon.svg" alt="Nextflow" title="Nextflow pipeline" width="24" height="20" style="object-fit: contain; vertical-align: middle; margin-right: 0.35rem;"> [**ITSdetector**](https://github.com/KitHubb/ITSdetector) — Illumina ITS 워크플로와 진균 분류기의 성능을 비교하는 Nextflow 기반 프레임워크
-- <img src="https://www.r-project.org/logo/Rlogo.svg" alt="R" title="R package" width="24" height="20" style="object-fit: contain; vertical-align: middle; margin-right: 0.35rem;"> [**decontamSensitivity**](https://github.com/KitHubb/decontamSensitivity) — 마이크로바이옴 연구에서 decontam 임계값 선정을 지원하는 민감도 분석 및 품질관리 도구
-- <img src="https://www.r-project.org/logo/Rlogo.svg" alt="R" title="R package" width="24" height="20" style="object-fit: contain; vertical-align: middle; margin-right: 0.35rem;"> [**ancombcVizhelper**](https://github.com/KitHubb/ancombcVizhelper) — ANCOM-BC2 차등 풍부도 분석 결과를 정리·요약하고 시각화하는 R 패키지
+- <img src="{{ '/assets/img/r-project.svg' | relative_url }}" alt="R" title="R package" width="24" height="20" style="object-fit: contain; vertical-align: middle; margin-right: 0.35rem;"> [**decontamSensitivity**](https://github.com/KitHubb/decontamSensitivity) — 마이크로바이옴 연구에서 decontam 임계값 선정을 지원하는 민감도 분석 및 품질관리 도구
+- <img src="{{ '/assets/img/r-project.svg' | relative_url }}" alt="R" title="R package" width="24" height="20" style="object-fit: contain; vertical-align: middle; margin-right: 0.35rem;"> [**ancombcVizhelper**](https://github.com/KitHubb/ancombcVizhelper) — ANCOM-BC2 차등 풍부도 분석 결과를 정리·요약하고 시각화하는 R 패키지
 
 ## Pipelines
 

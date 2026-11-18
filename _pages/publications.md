@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: 논문, 학술대회 발표, 수상 및 특허 목록입니다.
+description: 논문, 학술대회 발표, 수상, 특허 및 연구용 소프트웨어 목록입니다.
 nav: true
 nav_order: 3
 toc:
@@ -83,3 +83,15 @@ toc:
 
 - 의료기기 표면 쾌속 살균장치(Medical device surface rapid sterilization device), 등록번호 제10-2703021호
 - 클레브시엘라 감염 억제 및 탈모 예방용 CoNS 기반 복합 미생물 조성물(CoNS-based complex microbial composition for inhibiting _Klebsiella_ infection and preventing hair loss), 출원 중
+
+## Tools
+
+- [**ITSdetector**](https://github.com/KitHubb/ITSdetector) — Illumina ITS 워크플로와 진균 분류기의 성능을 비교하는 Nextflow 기반 프레임워크
+- [**decontamSensitivity**](https://github.com/KitHubb/decontamSensitivity) — 마이크로바이옴 연구에서 decontam 임계값 선정을 지원하는 민감도 분석 및 품질관리 도구
+- [**ancombcVizhelper**](https://github.com/KitHubb/ancombcVizhelper) — ANCOM-BC2 차등 풍부도 분석 결과를 정리·요약하고 시각화하는 R 패키지
+
+## Pipelines
+
+- [**ITSdetector**](https://github.com/KitHubb/ITSdetector) — QIIME 2, UNITE, BLAST 및 AI 보조 분류를 활용하는 ITS 분석·벤치마크 파이프라인
+- [**amplicon_16S_rRNA_full-length_pacbio_qiime_nf**](https://github.com/KitHubb/amplicon_16S_rRNA_full-length_pacbio_qiime_nf) — PacBio full-length 16S CCS read를 QIIME 2로 분석하는 Nextflow DSL2 파이프라인
+- [**amplicon_16S_qiime_nf**](https://github.com/KitHubb/amplicon_16S_qiime_nf) — paired-end 16S rRNA 데이터를 QIIME 2, DADA2 및 SILVA로 분석하는 Nextflow DSL2 파이프라인

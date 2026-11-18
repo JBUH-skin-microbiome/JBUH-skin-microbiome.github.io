@@ -11,6 +11,7 @@ BIB_PATH = ROOT / "_bibliography" / "papers.bib"
 OUTPUT_DIR = ROOT / "_includes" / "publications"
 MEMBER_OUTPUT_DIR = ROOT / "_includes" / "member-publications"
 MEMBER_DIR = ROOT / "_members"
+PUBLICATIONS_PAGE_PATH = ROOT / "_pages" / "publications.md"
 YEARS = (2026, 2025, 2024, 2023, 2022, 2021)
 
 
@@ -26,7 +27,7 @@ def parse_entries(source: str) -> list[dict[str, str]]:
 
 
 def load_member_aliases() -> tuple[dict[str, dict[str, str]], dict[str, list[str]]]:
-    """Load exact BibTeX author aliases from member front matter."""
+    """Load exact academic-name aliases from member front matter."""
     alias_map: dict[str, dict[str, str]] = {}
     aliases_by_slug: dict[str, list[str]] = {}
     for path in sorted(MEMBER_DIR.glob("*.md")):
@@ -48,6 +49,26 @@ def load_member_aliases() -> tuple[dict[str, dict[str, str]], dict[str, list[str
                 raise ValueError(f"Duplicate publication alias: {alias}")
             alias_map[alias] = member
     return alias_map, aliases_by_slug
+
+
+def parse_awards(source: str) -> list[str]:
+    match = re.search(r"^## Awards\s*$(.*?)(?=^##\s|\Z)", source, re.M | re.S)
+    if not match:
+        return []
+    return [item.strip() for item in re.findall(r"^-\s+(.+?)\s*$", match.group(1), re.M)]
+
+
+def award_aliases(aliases: list[str]) -> list[str]:
+    """Convert BibTeX-style aliases such as 'Kim, SY' to 'Kim SY'."""
+    return [" ".join(part.strip() for part in alias.split(",", 1)) for alias in aliases]
+
+
+def member_awards(awards: list[str], aliases: list[str]) -> list[str]:
+    matches: list[str] = []
+    for award in awards:
+        if any(re.search(rf"(?<![\w.-]){re.escape(alias)}(?=[\s,.;]|$)", award) for alias in award_aliases(aliases)):
+            matches.append(award)
+    return matches
 
 
 def display_authors(value: str, alias_map: dict[str, dict[str, str]]) -> str:
@@ -122,6 +143,7 @@ def render_entry(entry: dict[str, str], alias_map: dict[str, dict[str, str]]) ->
 
 def main() -> None:
     entries = parse_entries(BIB_PATH.read_text(encoding="utf-8"))
+    awards = parse_awards(PUBLICATIONS_PAGE_PATH.read_text(encoding="utf-8"))
     alias_map, aliases_by_slug = load_member_aliases()
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     for year in YEARS:
@@ -138,29 +160,39 @@ def main() -> None:
             for entry in entries
             if any(author.strip() in aliases for author in entry.get("author", "").split(" and "))
         ]
+        selected_awards = member_awards(awards, aliases)
         rendered = [
-            "<!-- Generated from _bibliography/papers.bib and member publication_names. -->",
+            "<!-- Generated from papers.bib, publications.md awards, and member publication_names. -->",
             '<section class="member-publications publication-catalog">',
-            "  <h2>Publications</h2>",
         ]
-        for year in YEARS:
-            year_entries = [entry for entry in selected if entry.get("year") == str(year)]
-            if not year_entries:
-                continue
-            rendered.extend([f'  <h3 class="publication-year">{year}</h3>', '  <ol class="bibliography">'])
-            rendered.extend(render_entry(entry, alias_map) for entry in year_entries)
-            rendered.append("  </ol>")
-        rendered.extend(
-            [
-                '  <p class="member-publications-all"><a href="/publications/">View all publications →</a></p>',
-                "</section>",
-            ]
-        )
+        if selected:
+            rendered.append("  <h2>Publications</h2>")
+            for year in YEARS:
+                year_entries = [entry for entry in selected if entry.get("year") == str(year)]
+                if not year_entries:
+                    continue
+                rendered.extend([f'  <h3 class="publication-year">{year}</h3>', '  <ol class="bibliography">'])
+                rendered.extend(render_entry(entry, alias_map) for entry in year_entries)
+                rendered.append("  </ol>")
+            rendered.append(
+                '  <p class="member-publications-all"><a href="/publications/#articles">View all publications →</a></p>'
+            )
+        if selected_awards:
+            awards_heading_class = ' class="member-awards-heading"' if selected else ""
+            rendered.extend([f"  <h2{awards_heading_class}>Awards</h2>", '  <ul class="member-awards-list">'])
+            rendered.extend(f"    <li>{html.escape(award)}</li>" for award in selected_awards)
+            rendered.extend(
+                [
+                    "  </ul>",
+                    '  <p class="member-publications-all"><a href="/publications/#awards">View all awards →</a></p>',
+                ]
+            )
+        rendered.append("</section>")
         (MEMBER_OUTPUT_DIR / f"{slug}.html").write_text("\n".join(rendered) + "\n", encoding="utf-8")
 
     print(
         f"Generated {len(entries)} publication entries across {len(YEARS)} year files "
-        f"and {len(aliases_by_slug)} member files."
+        f"and {len(aliases_by_slug)} member files with {len(awards)} award records."
     )
 
 

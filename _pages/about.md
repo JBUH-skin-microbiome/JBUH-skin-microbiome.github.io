@@ -8,9 +8,15 @@ social: false
 ---
 
 <section class="hero-panel">
+  <p class="hero-eyebrow">Clinical Research · Microbiome · Bioinformatics</p>
   <p class="hero-welcome">피부마이크로바이옴연구실에 오신 것을 환영합니다.</p>
   <p>우리 연구실은 컴퓨터 분석 방법을 활용하여 피부 미생물이 다양한 피부 질환에 미치는 영향을 연구합니다.</p>
   <p>장내 마이크로바이옴에 비해 피부 마이크로바이옴의 역할은 아직 충분히 밝혀지지 않았습니다. 피부 미생물의 구조적 네트워크를 규명하고, 미생물 변화가 피부 건강과 질환에 영향을 미치는 기전을 이해하고자 합니다.</p>
+
+  <div class="hero-actions">
+    <a class="jbsm-button jbsm-button-primary" href="{{ '/research/' | relative_url }}">Explore Research <span aria-hidden="true">→</span></a>
+    <a class="jbsm-button jbsm-button-secondary" href="{{ '/contact/' | relative_url }}">Contact the Lab</a>
+  </div>
 
   <div class="home-photo-strip" aria-label="피부마이크로바이옴연구실 사진">
     <figure><img src="{{ '/assets/img/jbsm/home-main-01.jpg' | relative_url }}" alt="피부마이크로바이옴연구실 구성원 단체 사진" loading="eager"></figure>
@@ -22,14 +28,23 @@ social: false
   </div>
 </section>
 
-<div class="info-grid">
-  <section class="lab-card"><h3>연구 분야</h3><p>피부·두피·모낭·구강 및 장내 미생물군과 피부 질환의 연관성을 생물정보학과 임상 연구로 분석합니다.</p><a href="{{ '/research/' | relative_url }}">연구 내용 보기 →</a></section>
-  <section class="lab-card"><h3>함께 연구할 분을 찾습니다</h3><p>학부연구생·대학원생·연구원을 모집하고 있습니다.</p><a href="mailto:airmd@jbnu.ac.kr">airmd@jbnu.ac.kr</a></section>
-  <section class="lab-card"><h3>연구실 안내</h3><p>전북대학교병원 임상연구센터 1층 101호</p><a href="{{ '/contact/' | relative_url }}">연락처 보기 →</a></section>
-</div>
+<section class="home-focus-section">
+  <div class="home-section-heading">
+    <p>Research &amp; Lab</p>
+    <h2>연구실 한눈에 보기</h2>
+  </div>
+  <div class="info-grid">
+    <section class="lab-card"><span class="lab-card-icon" aria-hidden="true"><i class="fa-solid fa-dna"></i></span><h3>연구 분야</h3><p>피부·두피·모낭·구강 및 장내 미생물군과 피부 질환의 연관성을 생물정보학과 임상 연구로 분석합니다.</p><a href="{{ '/research/' | relative_url }}">연구 내용 보기 →</a></section>
+    <section class="lab-card"><span class="lab-card-icon" aria-hidden="true"><i class="fa-solid fa-user-group"></i></span><h3>함께 연구할 분을 찾습니다</h3><p>학부연구생·대학원생·연구원을 모집하고 있습니다.</p><a href="mailto:airmd@jbnu.ac.kr">airmd@jbnu.ac.kr</a></section>
+    <section class="lab-card"><span class="lab-card-icon" aria-hidden="true"><i class="fa-solid fa-location-dot"></i></span><h3>연구실 안내</h3><p>전북대학교병원 임상연구센터 1층 101호</p><a href="{{ '/contact/' | relative_url }}">연락처 보기 →</a></section>
+  </div>
+</section>
 
 <section class="home-news-section">
-  <h2><a href="{{ '/news/' | relative_url }}">News</a></h2>
+  <div class="home-section-heading">
+    <p>Updates</p>
+    <h2>News</h2>
+  </div>
   {% include news.liquid limit=true %}
 </section>
 

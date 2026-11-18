@@ -214,23 +214,20 @@ h2#patents + ul > li {
 .internship-program-visuals .internship-result-image { width: 100%; max-width: 330px; }
 .internship-task-layout .internship-visual img { width: 100%; max-width: 330px; margin: 0 auto; }
 .internship-page .content-section { padding-bottom: 4rem; }
-.internship-feature-grid { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(240px, 0.8fr); gap: 2.5rem; align-items: center; }
-.internship-feature-grid figure { margin: 0; }
-.internship-feature-grid img,
-.internship-research-images img,
-.internship-tools-row img { display: block; width: 100%; height: auto; border: 0; background: transparent; object-fit: contain; }
-.internship-topic-grid,
-.internship-analysis-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; }
-.internship-topic { padding: 1.35rem; border: 1px solid var(--global-divider-color); background: var(--global-card-bg-color); }
+.internship-row { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(260px, 0.75fr); gap: 3rem; align-items: center; margin: 2.5rem 0 4.5rem; }
+.internship-row figure { margin: 0; text-align: center; }
+.internship-row img { display: block; width: 100%; max-height: 410px; height: auto; margin: 0 auto; border: 0; background: transparent; object-fit: contain; }
+.internship-training-row { grid-template-columns: minmax(240px, 0.75fr) minmax(0, 1.45fr); }
+.internship-training-row img { max-width: 330px; }
+.internship-analysis-row { grid-template-columns: minmax(220px, 0.75fr) minmax(0, 1.45fr); }
+.internship-analysis-row figure img { max-width: 330px; }
+.internship-analysis-row .internship-r-logo { max-width: 250px; }
+.internship-analysis-row .internship-linux-logo { max-width: 210px; }
+.internship-text-group { display: grid; gap: 2.75rem; }
+.internship-topic { padding: 0; border: 0; background: transparent; }
 .internship-topic h3 { margin: 0 0 0.9rem; font-size: 1.08rem; line-height: 1.45; }
 .internship-topic ul { margin: 0; padding-left: 1.25rem; }
 .internship-topic li + li { margin-top: 0.65rem; }
-.internship-topic-wide { margin-top: 1.25rem; }
-.internship-research-images { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; align-items: center; margin-top: 2rem; }
-.internship-tools-row { display: grid; grid-template-columns: 0.45fr 0.55fr 1.7fr; gap: 2rem; align-items: center; max-width: 850px; margin: 2.5rem auto; }
-.internship-tools-row .internship-r-logo { max-height: 135px; }
-.internship-tools-row .internship-linux-logo { max-height: 155px; }
-.internship-tools-row .internship-result-image { max-height: 290px; }
 .internship-qna { display: grid; gap: 1rem; }
 .internship-qna details { padding: 1.2rem 1.35rem; border: 1px solid var(--global-divider-color); background: var(--global-card-bg-color); }
 .internship-qna summary { cursor: pointer; font-weight: 700; }
@@ -270,15 +267,17 @@ h2#patents + ul > li {
   .facility-images img { height: auto; max-height: 420px; object-fit: contain; background: #fff; }
   .internship-split,
   .internship-research-visuals,
-  .internship-feature-grid,
-  .internship-topic-grid,
-  .internship-analysis-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+  .internship-row,
+  .internship-training-row,
+  .internship-analysis-row { grid-template-columns: 1fr; gap: 1.75rem; margin-bottom: 3.5rem; }
+  .internship-row figure { order: 1; }
+  .internship-row > .internship-copy,
+  .internship-row > .internship-text-group,
+  .internship-row > .internship-topic { order: 2; }
   .internship-intro .internship-visual,
   .internship-project-layout .internship-program-visuals,
   .internship-task-layout .internship-visual { order: 2; }
   .internship-research-visuals .internship-visual-stack { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .internship-tools-row { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; }
-  .internship-tools-row .internship-result-image { grid-column: 1 / -1; }
 }
 
 @media (max-width: 576px) {

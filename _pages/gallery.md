@@ -5,13 +5,11 @@ permalink: /gallery/
 description: 연구실의 학술 활동과 구성원들의 기록입니다.
 nav: true
 nav_order: 4
+toc:
+  sidebar: right
 ---
 
-<nav class="year-jump" aria-label="갤러리 연도 목차">
-  {% assign gallery_years = "2026,2025,2024,2023" | split: "," %}
-  {% for year in gallery_years %}<a href="#year-{{ year }}">{{ year }}</a>{% endfor %}
-</nav>
-
+{% assign gallery_years = "2026,2025,2024,2023" | split: "," %}
 {% assign gallery_projects = site.projects | where: "kind", "gallery" | sort: "order" %}
 <div class="collection-landing projects">
   {% for year in gallery_years %}

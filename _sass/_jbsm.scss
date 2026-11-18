@@ -1,12 +1,15 @@
 .hero-panel {
-  padding: clamp(1.35rem, 4vw, 2.5rem);
+  padding: 1.5rem 0 0;
   margin-bottom: 2rem;
-  border: 1px solid var(--global-divider-color);
-  border-radius: 1rem;
-  background: var(--global-card-bg-color);
+  border-top: 1px solid var(--global-divider-color);
 }
 
-.hero-panel h2,
+.hero-welcome {
+  margin: 0 0 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
 .lab-card h3,
 .member-card h3 {
   margin-top: 0;
@@ -21,7 +24,7 @@
 }
 
 .info-grid { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
-.member-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.member-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 0.9rem; }
 .photo-grid { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
 
 .lab-card,
@@ -33,12 +36,12 @@
   background: var(--global-card-bg-color);
 }
 
-.lab-card,
-.member-card .member-body { padding: 1.25rem; }
+.lab-card { padding: 1.25rem; }
+.member-card .member-body { padding: 0.8rem; }
 .member-section { margin-top: 3rem; }
 .member-section + .member-section { padding-top: 1rem; border-top: 1px solid var(--global-divider-color); }
 .member-card { display: flex; flex-direction: column; }
-.member-image-link { display: block; background: #e4e7eb; }
+.member-image-link { display: block; background: #fff; }
 .member-card img {
   display: block;
   width: 100%;
@@ -47,17 +50,18 @@
   object-fit: contain;
   object-position: center top;
 }
-.member-grid-faculty { grid-template-columns: 1fr; }
-.member-grid-faculty .member-card { display: grid; grid-template-columns: minmax(280px, 0.75fr) 1.25fr; align-items: start; }
-.member-grid-faculty .member-image-link { display: flex; align-items: flex-start; justify-content: center; }
-.member-grid-faculty .member-card img { aspect-ratio: auto; max-height: none; object-fit: contain; }
+.member-grid-faculty { grid-template-columns: 1fr; gap: 1rem; }
+.member-grid-faculty .member-card { display: grid; grid-template-columns: 180px minmax(0, 1fr); align-items: center; }
+.member-grid-faculty .member-image-link { display: flex; align-items: center; justify-content: center; }
+.member-grid-faculty .member-card img { width: 180px; height: 220px; aspect-ratio: auto; object-fit: contain; object-position: center; }
+.member-card h3 { font-size: 1rem; line-height: 1.35; }
 .member-card h3 small { display: block; margin-top: 0.35rem; line-height: 1.4; }
 .profile-link { display: inline-block; margin-top: auto; font-weight: 600; }
 
 .member-profile { max-width: 900px; margin: 0 auto; }
 .back-link { display: inline-block; margin-bottom: 1.5rem; }
 .member-profile-grid { display: grid; grid-template-columns: minmax(260px, 0.8fr) 1.2fr; gap: 2rem; align-items: start; }
-.member-profile figure { margin: 0; padding: 1rem; border: 1px solid var(--global-divider-color); border-radius: 0; background: #e4e7eb; }
+.member-profile figure { margin: 0; padding: 1rem; border: 1px solid var(--global-divider-color); border-radius: 0; background: #fff; }
 .member-profile figure img { width: 100%; max-height: 560px; object-fit: contain; }
 .profile-name-en { font-size: 1.2rem; color: var(--global-text-color-light); }
 .profile-details { margin-top: 2.5rem; padding-top: 2rem; border-top: 1px solid var(--global-divider-color); }
@@ -65,7 +69,7 @@
 
 .partners-section { margin-top: 3.5rem; padding-top: 2rem; border-top: 1px solid var(--global-divider-color); }
 .partner-logos { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.7rem; align-items: center; }
-.partner-logos figure { height: 82px; margin: 0; padding: 0.75rem; display: flex; align-items: center; justify-content: center; border: 1px solid var(--global-divider-color); border-radius: 0; background: #fff; }
+.partner-logos figure { height: 82px; margin: 0; padding: 0.75rem; display: flex; align-items: center; justify-content: center; border: 0; background: transparent; }
 .partner-logos img { width: 100%; height: 52px; object-fit: contain; }
 
 .content-section { padding: 1rem 0 3rem; }
@@ -74,13 +78,14 @@
 .internship-page .content-section > p { margin-bottom: 2.25rem; }
 .research-figures { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 1.75rem; }
 .research-figures figure,
-.research-figure-wide { margin: 0; padding: 1rem; border: 1px solid var(--global-divider-color); border-radius: 0.75rem; background: #fff; }
+.research-figure-wide { margin: 0; padding: 0; border: 0; background: transparent; }
 .research-figures img,
 .research-figure-wide img { width: 100%; height: auto; object-fit: contain; }
 .research-figure-wide { max-width: 760px; margin-top: 1.75rem; }
-.research-project { margin: 1.25rem 0; padding: 1.25rem 1.4rem; border-left: 3px solid var(--global-theme-color); background: var(--global-card-bg-color); }
+.research-project { margin: 1.75rem 0; padding: 0; border: 0; background: transparent; }
 .research-project h3 { margin: 0 0 0.8rem; font-size: 1.08rem; }
 .research-project p:last-child { margin-bottom: 0; }
+.research-page #funding + ul > li { margin-bottom: 1rem; }
 
 .year-jump { display: flex; flex-wrap: wrap; gap: 0.65rem; margin: 1rem 0 2.5rem; padding: 1rem; border: 1px solid var(--global-divider-color); border-radius: 0.75rem; background: var(--global-card-bg-color); }
 .year-jump a { padding: 0.45rem 0.8rem; border-radius: 999px; background: var(--global-card-bg-color); border: 1px solid var(--global-divider-color); font-weight: 600; }
@@ -221,7 +226,8 @@ h2#patents + ul > li {
   .event-grid,
   .member-grid-faculty,
   .collection-image-grid { grid-template-columns: 1fr; }
-  .member-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .member-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .member-grid-faculty { grid-template-columns: 1fr; }
   .partner-logos { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.35rem; }
   .partner-logos figure { height: 64px; padding: 0.45rem; }
   .partner-logos img { height: 40px; }
@@ -237,8 +243,11 @@ h2#patents + ul > li {
 }
 
 @media (max-width: 576px) {
-  .hero-panel { padding: 1.25rem; }
-  .member-grid { grid-template-columns: 1fr; }
+  .hero-panel { padding-top: 1.25rem; }
+  .member-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .member-grid-faculty { grid-template-columns: 1fr; }
+  .member-grid-faculty .member-card { grid-template-columns: 120px minmax(0, 1fr); }
+  .member-grid-faculty .member-card img { width: 120px; height: 155px; }
   .collection-landing .grid { grid-template-columns: 1fr; }
   .event-images { grid-template-rows: repeat(2, 95px); }
   .event-images-2 { grid-template-rows: 180px; }

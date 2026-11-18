@@ -183,10 +183,23 @@ h2#patents + ul > li {
 .facility-images img { width: 100%; height: 250px; object-fit: cover; }
 .equipment-note { margin-top: 3rem; padding: 1.5rem; border-left: 4px solid var(--global-theme-color); background: var(--global-card-bg-color); }
 
-.internship-hero-image { display: block; width: 100%; height: auto; margin-top: 1.5rem; border: 1px solid var(--global-divider-color); border-radius: 0.75rem; }
-.internship-image-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.8rem; margin-top: 1.5rem; }
-.internship-image-grid-two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-.internship-image-grid img { width: 100%; height: 220px; object-fit: contain; border: 1px solid var(--global-divider-color); border-radius: 0.6rem; background: #fff; }
+.internship-split {
+  display: grid;
+  grid-template-columns: minmax(180px, 0.8fr) minmax(0, 1.8fr);
+  gap: 2.25rem;
+  align-items: center;
+  margin: 1.5rem 0 2.5rem;
+}
+.internship-split img { display: block; max-width: 100%; height: auto; border: 0; border-radius: 0; background: transparent; }
+.internship-copy > :last-child { margin-bottom: 0; }
+.internship-copy ul { margin-bottom: 0; }
+.internship-research-visuals { grid-template-columns: minmax(0, 1.6fr) minmax(210px, 0.9fr); }
+.internship-visual-stack { display: grid; gap: 1.5rem; align-items: center; }
+.internship-program-visuals { display: grid; justify-items: center; gap: 1.5rem; }
+.internship-program-visuals .internship-r-logo { width: 42%; max-width: 145px; }
+.internship-program-visuals .internship-linux-logo { width: 52%; max-width: 175px; }
+.internship-program-visuals .internship-result-image { width: 100%; max-width: 330px; }
+.internship-task-layout .internship-visual img { width: 100%; max-width: 330px; margin: 0 auto; }
 
 .page-lead { max-width: 760px; font-size: 1.1rem; color: var(--global-text-color-light); }
 .resource-grid { grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); margin-bottom: 3rem; }
@@ -216,9 +229,12 @@ h2#patents + ul > li {
   .collection-landing .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .facility-images { grid-template-columns: 1fr; }
   .facility-images img { height: auto; max-height: 420px; object-fit: contain; background: #fff; }
-  .internship-image-grid,
-  .internship-image-grid-two { grid-template-columns: 1fr; }
-  .internship-image-grid img { height: auto; }
+  .internship-split,
+  .internship-research-visuals { grid-template-columns: 1fr; gap: 1.5rem; }
+  .internship-intro .internship-visual,
+  .internship-project-layout .internship-program-visuals,
+  .internship-task-layout .internship-visual { order: 2; }
+  .internship-research-visuals .internship-visual-stack { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 @media (max-width: 576px) {

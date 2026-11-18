@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Lab Resources
+title: Manual
 permalink: /resources/
 description: 피부마이크로바이옴연구실 자료실입니다.
 nav: true
-nav_order: 7
+nav_order: 9
 redirect: https://jbuh-skin-microbiome.github.io/lab-handbook/
 redirect_delay: 0
 ---

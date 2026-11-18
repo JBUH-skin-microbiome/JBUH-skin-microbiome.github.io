@@ -4,8 +4,6 @@ layout: page
 
 <article class="collection-detail">
   <a class="back-link" href="{{ page.kind | prepend: '/' | append: '/' | relative_url }}">← {{ page.kind | capitalize }}</a>
-  {% if page.kind == "gallery" %}<p class="collection-meta">{{ page.date_label }}</p>{% endif %}
-  {% if page.description %}<p class="page-lead">{{ page.description }}</p>{% endif %}
 
   <div class="collection-image-grid collection-image-grid-{{ page.kind }}">
     {% for image in page.images %}

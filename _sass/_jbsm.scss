@@ -116,16 +116,14 @@
 .publication-year + ul,
 h2#awards + ul,
 h2#patents + ul {
-  list-style: none;
-  padding-left: 0;
+  list-style: disc;
+  padding-left: 1.4rem;
 }
 .publication-year + ul > li,
 h2#awards + ul > li,
 h2#patents + ul > li {
   margin-bottom: 0.7rem;
-  padding: 0.9rem 1rem;
-  border-left: 3px solid var(--global-theme-color);
-  background: var(--global-card-bg-color);
+  padding-left: 0.15rem;
 }
 
 .collection-year { margin: 4rem 0; scroll-margin-top: 90px; }

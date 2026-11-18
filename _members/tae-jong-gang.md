@@ -8,4 +8,5 @@ group_label: Researcher
 order: 4
 image: /assets/img/jbsm/members_1-04.jpg
 email: tjderma@gmail.com
+publication_names: ["Kang, TJ"]
 ---

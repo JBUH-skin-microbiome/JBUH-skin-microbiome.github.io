@@ -9,6 +9,7 @@ order: 1
 image: /assets/img/jbsm/members_1-01.png
 email: airmd@jbnu.ac.kr
 scholar: https://scholar.google.co.kr/citations?user=qc6CJjYAAAAJ
+publication_names: ["Park, J"]
 ---
 
 ## 경력

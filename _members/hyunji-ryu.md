@@ -7,4 +7,5 @@ group: researcher
 group_label: Researcher
 order: 5
 image: /assets/img/jbsm/member-placeholder.svg
+publication_names: ["Ryu, H-J"]
 ---

@@ -9,4 +9,5 @@ order: 12
 image: /assets/img/jbsm/member-placeholder.svg
 email: kim.soyeon.bio@gmail.com
 github: https://github.com/KitHubb
+publication_names: ["Kim, SY"]
 ---

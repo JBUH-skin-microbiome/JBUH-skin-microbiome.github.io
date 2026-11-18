@@ -9,6 +9,7 @@ order: 2
 image: /assets/img/jbsm/members_1-02.png
 email: kyung1212@hanmail.net
 scholar: https://scholar.google.co.kr/
+publication_names: ["Nam, KH", "Nam, K"]
 ---
 
 ## 경력

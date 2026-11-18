@@ -8,4 +8,5 @@ group_label: Researcher
 order: 13
 image: /assets/img/jbsm/members_1-10.jpg
 email: rhkd97750@gmail.com
+publication_names: ["Kim, GI"]
 ---

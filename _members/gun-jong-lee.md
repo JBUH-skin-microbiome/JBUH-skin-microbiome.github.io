@@ -8,4 +8,5 @@ group_label: Researcher
 order: 3
 image: /assets/img/jbsm/members_1-03.jpg
 email: gjderma@gmail.com
+publication_names: ["Lee, GJ"]
 ---

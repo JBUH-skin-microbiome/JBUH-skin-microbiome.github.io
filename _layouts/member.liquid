@@ -19,4 +19,8 @@ layout: page
     </div>
   </div>
   {% if content != '' %}<div class="profile-details">{{ content }}</div>{% endif %}
+  {% if page.publication_names %}
+    {% capture member_publications_path %}member-publications/{{ page.slug }}.html{% endcapture %}
+    {% include {{ member_publications_path }} %}
+  {% endif %}
 </article>

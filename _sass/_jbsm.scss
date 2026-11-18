@@ -111,6 +111,8 @@
 .publication-catalog ol.bibliography .col-sm-10 { padding-left: 1rem; }
 .publication-catalog .title { font-size: 1.05rem; line-height: 1.45; }
 .publication-catalog .author { margin-top: 0.35rem; }
+.publication-catalog .member-author-link { color: inherit; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+.publication-catalog .member-author-link:hover { color: var(--global-theme-color); }
 .publication-catalog .periodical { color: var(--global-text-color-light); }
 .publication-catalog .links { margin-top: 0.6rem; }
 .publication-catalog .publication-search-link { margin-right: 0.35rem; }
@@ -128,6 +130,9 @@
   background: var(--global-code-bg-color);
   white-space: pre-wrap;
 }
+.member-publications { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--global-divider-color); }
+.member-publications .publication-year { font-size: 1.35rem; }
+.member-publications-all { margin-top: 1.5rem; text-align: right; }
 .publication-year + ul,
 h2#awards + ul,
 h2#patents + ul {

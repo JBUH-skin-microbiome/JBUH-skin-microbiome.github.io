@@ -93,6 +93,8 @@
   border: 1px solid var(--global-divider-color);
   background: var(--global-card-bg-color);
 }
+.publication-catalog ol.bibliography .abbr { padding-right: 1rem; }
+.publication-catalog ol.bibliography .col-sm-10 { padding-left: 1rem; }
 .publication-catalog .title { font-size: 1.05rem; line-height: 1.45; }
 .publication-catalog .author { margin-top: 0.35rem; }
 .publication-catalog .periodical { color: var(--global-text-color-light); }

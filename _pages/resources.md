@@ -6,6 +6,7 @@ description: 피부마이크로바이옴연구실 자료실입니다.
 nav: true
 nav_order: 7
 redirect: https://jbuh-skin-microbiome.github.io/lab-handbook/
+redirect_delay: 0
 ---
 
 <section class="construction-panel" aria-label="Handbook 안내">

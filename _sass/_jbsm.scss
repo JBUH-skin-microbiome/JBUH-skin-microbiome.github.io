@@ -1,0 +1,75 @@
+.hero-panel {
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 1rem;
+  background: var(--global-card-bg-color);
+}
+.hero-panel h2,
+.lab-card h3,
+.member-card h3 {
+  margin-top: 0;
+}
+.info-grid,
+.member-grid,
+.photo-grid {
+  display: grid;
+  gap: 1.25rem;
+}
+.info-grid {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.member-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+.photo-grid {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+.lab-card,
+.member-card,
+.photo-card {
+  overflow: hidden;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.75rem;
+  background: var(--global-card-bg-color);
+}
+.lab-card,
+.member-card .member-body {
+  padding: 1.25rem;
+}
+.member-card img,
+.photo-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+.member-role,
+.section-note {
+  color: var(--global-text-color-light);
+}
+.photo-card figcaption {
+  padding: 0.8rem 1rem;
+  font-size: 0.95rem;
+}
+.publication-year {
+  margin-top: 2.5rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+.publication-list li {
+  margin-bottom: 0.9rem;
+}
+.contact-box {
+  padding: 1.5rem;
+  border-left: 4px solid var(--global-theme-color);
+  background: var(--global-card-bg-color);
+}
+@media (max-width: 576px) {
+  .hero-panel {
+    padding: 1.25rem;
+  }
+  .member-card img,
+  .photo-card img {
+    height: auto;
+  }
+}

@@ -2,7 +2,7 @@
 
 전북대학교 박진 교수님 연구실 홈페이지 입니다.
 
-[홈페이지 바로가기](https://jbuh-skin-microbiome.github.io/)
+[홈페이지 바로가기](https://jbuh-skin-microbiome.github.io/) · [이전 홈페이지](https://sites.google.com/view/skinmicrobiome-lab/home)
 
 ## 홈페이지 구성
 
@@ -21,12 +21,8 @@
 
 Lab book 링크 추가 예정입니다.
 
-## al-folio example
-
-The vibrant community of **al-folio** users is growing!
-Academics around the world use this theme for their homepages, blogs, lab pages, as well as webpages for courses, workshops, conferences, meetups, and more.
-Check out the community webpages below.
-Feel free to add your own page(s) by sending a PR.
+<details>
+<summary>al-folio example</summary>
 
 <table>
 <tr>
@@ -174,3 +170,5 @@ Workshop on Diffusion Models (NeurIPS: <a href="https://diffusionworkshop.github
 </td>
 </tr>
 </table>
+
+</details>

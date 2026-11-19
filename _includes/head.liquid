@@ -17,7 +17,6 @@
 {% endif %}
 
 <!-- Fonts & Icons -->
-<link rel="stylesheet" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <link defer rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
 <link
   defer
@@ -127,3 +126,5 @@
 {% if page.tikzjax %}
   <link defer rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
 {% endif %}
+
+<link rel="stylesheet" href="{{ "/assets/css/pretendard.css" | relative_url }}?v=1">

@@ -61,7 +61,15 @@
   background: var(--global-card-bg-color);
 }
 
-.lab-card { padding: 1.25rem; }
+.lab-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+}
+.lab-card > a:last-child {
+  align-self: flex-start;
+  margin-top: auto;
+}
 .lab-card-icon {
   display: flex;
   margin: 0 auto 1rem;

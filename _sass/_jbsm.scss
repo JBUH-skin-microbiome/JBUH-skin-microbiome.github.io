@@ -310,8 +310,10 @@ h2#patents + ul > li {
 .contact-map iframe {
   display: block;
   width: 100%;
-  height: clamp(320px, 48vw, 480px);
+  max-width: 100%;
+  height: clamp(280px, 56.25vw, 480px);
   border: 0;
+  box-sizing: border-box;
 }
 
 #toc-sidebar { top: 6rem; max-height: calc(100vh - 8rem); overflow-y: auto; }

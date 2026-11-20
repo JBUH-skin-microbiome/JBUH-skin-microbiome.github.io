@@ -98,7 +98,7 @@
                 <li class="nav-item {% if page.url contains p.permalink %}active{% endif %}">
                   {% if p.permalink contains '/blog/' %}{% assign url = '/blog/' %} {% else %}{% assign url = p.url %}{% endif %}
                   {% if p.permalink == '/resources/' %}
-                    <a class="nav-link" href="https://jbuh-skin-microbiome.github.io/lab-handbook/">
+                    <a class="nav-link" href="https://jbuh-skin-microbiome.github.io/lab-handbook-mkdocs/">
                   {% else %}
                     <a class="nav-link" href="{{ url | relative_url }}">
                   {% endif %}

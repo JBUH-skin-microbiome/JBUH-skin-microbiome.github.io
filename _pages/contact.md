@@ -13,6 +13,8 @@ toc:
 ## 모집 안내
 
 학부연구생·대학원생·연구원을 모집하고 있습니다. 지원 및 연구 문의는 [airmd@jbnu.ac.kr](mailto:airmd@jbnu.ac.kr)로 연락해 주세요.
+
+[연구실 지원 방법 보기 →](https://jbuh-skin-microbiome.github.io/lab-handbook/onboarding/applicants/?v=1795137940)
 </section>
 
 <section class="contact-section contact-information" markdown="1">

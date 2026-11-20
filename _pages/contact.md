@@ -35,6 +35,9 @@ toc:
   <iframe
     title="전북대학교병원 임상연구센터 위치"
     src="https://maps.google.com/maps?q=Jeonbuk%20National%20University%20Hospital%20Clinical%20Research%20Center&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+    width="100%"
+    height="450"
+    style="display: block; width: 100%; border: 0;"
     loading="lazy"
     referrerpolicy="no-referrer-when-downgrade"
     allowfullscreen>

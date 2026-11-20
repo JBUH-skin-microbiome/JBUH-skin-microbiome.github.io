@@ -27,3 +27,19 @@ toc:
   <p><strong>전화</strong><br><a href="tel:0632593712">063-259-3712</a></p>
 </div>
 </section>
+
+<section class="contact-section contact-location" markdown="1">
+## 오시는 길
+
+<div class="contact-map">
+  <iframe
+    title="전북대학교병원 임상연구센터 위치"
+    src="https://maps.google.com/maps?q=Jeonbuk%20National%20University%20Hospital%20Clinical%20Research%20Center&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    allowfullscreen>
+  </iframe>
+</div>
+
+[Google 지도에서 보기 →](https://www.google.com/maps/search/?api=1&query=Jeonbuk%20National%20University%20Hospital%20Clinical%20Research%20Center)
+</section>

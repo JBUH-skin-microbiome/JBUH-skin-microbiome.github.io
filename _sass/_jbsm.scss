@@ -301,6 +301,18 @@ h2#patents + ul > li {
 .photo-card figcaption { padding: 0.8rem 1rem; font-size: 0.95rem; }
 .contact-box { padding: 1.5rem; border-left: 4px solid var(--global-theme-color); background: var(--global-card-bg-color); }
 .contact-section + .contact-section { margin-top: 4.5rem; }
+.contact-map {
+  width: 100%;
+  margin: 1.25rem 0 1rem;
+  overflow: hidden;
+  background: var(--global-card-bg-color);
+}
+.contact-map iframe {
+  display: block;
+  width: 100%;
+  height: clamp(320px, 48vw, 480px);
+  border: 0;
+}
 
 #toc-sidebar { top: 6rem; max-height: calc(100vh - 8rem); overflow-y: auto; }
 

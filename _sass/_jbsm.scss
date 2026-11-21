@@ -131,6 +131,7 @@
 .partners-section { padding-top: 3rem; border-top: 0; }
 .partner-logos { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.7rem; align-items: center; }
 .partner-logos figure { height: 82px; margin: 0; padding: 0.75rem; display: flex; align-items: center; justify-content: center; border: 0; background: transparent; }
+.partner-logos a { display: block; width: 100%; }
 .partner-logos img { width: 100%; height: 52px; object-fit: contain; }
 
 .content-section { padding: 1rem 0 3rem; }

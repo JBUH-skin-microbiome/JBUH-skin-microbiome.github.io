@@ -36,7 +36,7 @@ social: false
 <section class="partners-section">
   <h2>Partners &amp; Programs</h2>
   <div class="partner-logos">
-    <figure><img src="{{ '/assets/img/jbsm/home-01.png' | relative_url }}" alt="JBNU Microbiome"></figure>
+    <figure><a href="https://sites.google.com/view/jbnu-microbiome" target="_blank" rel="noopener noreferrer"><img src="{{ '/assets/img/jbsm/home-01.png' | relative_url }}" alt="JBNU Microbiome"></a></figure>
     <figure><img src="{{ '/assets/img/jbsm/home-02.png' | relative_url }}" alt="Project for Human Microbiome"></figure>
     <figure><img src="{{ '/assets/img/jbsm/home-03.jpg' | relative_url }}" alt="질병관리청"></figure>
     <figure><img src="{{ '/assets/img/jbsm/home-04.jpg' | relative_url }}" alt="중소벤처기업부"></figure>

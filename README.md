@@ -17,9 +17,9 @@
 | [Contact](https://jbuh-skin-microbiome.github.io/contact/) | 연락처 및 위치 |
 | [Manual](https://jbuh-skin-microbiome.github.io/lab-handbook/) | 연구실 Handbook |
 
-## 홈페이지 관리 매뉴얼
+## 참고한 테마
 
-Lab book 링크 추가 예정입니다.
+al-folio 를 사용하였습니다. 
 
 <details>
 <summary>al-folio example</summary>
